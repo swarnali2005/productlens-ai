@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://productlens-backend.onrender.com";
 
 export default function App() {
   const [image, setImage] = useState(null);
